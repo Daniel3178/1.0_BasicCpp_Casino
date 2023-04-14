@@ -56,6 +56,7 @@ int main()
 	}
 	else {
 		std::cout << "\n	Sorry, you lost!";
+		std::cout << "\n	Sorry, you lost GitTest!";
 	}
 	
 }
