@@ -5,10 +5,9 @@
 bool isGameActive{ false };
 
 void DisplayRules() {
-	std::string rules = "	\n********************************************\n	\
+	std::cout << "	\n********************************************\n	\
 Here are the rules: \n	#1 Follow the rules\n	\
-#2 Follow rule #1\n********************************************\n";
-	std::cout << rules << std::endl;
+#2 Follow rule #1\n********************************************\n" << std::endl;
 }
 
 void ClearInputBuffer() {
